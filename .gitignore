@@ -1,0 +1,12 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+__pycache__/
+.DS_Store
+# Large authority archives belong in release assets / DOI archive, not git history.
+*.tar.gz
+*.npz
+!data/*.npz

@@ -1,0 +1,116 @@
+{
+  "STRICT_THRESHOLD": 0.0001,
+  "R_MATCH_ERROR": 8.612736210717805e-05,
+  "CANONICAL_WILSONIAN_HANDOFF_PASS_STRICT": true,
+  "R_W_CLASSIFICATION": "WILSON_COEFFICIENT_SHIFT",
+  "rows": [
+    {
+      "channel": "background",
+      "classification": "REPRESENTED_POST_MATCH_RESIDUAL",
+      "raw_shift": 8.612736210718362e-05,
+      "metric": 8.612736210717805e-05,
+      "full": -0.013511674,
+      "eft_matched": -0.013510510275160727,
+      "normalization": 0.013511674
+    },
+    {
+      "channel": "scalar_kinetic",
+      "classification": "REPRESENTED_POST_MATCH_RESIDUAL",
+      "raw_shift": 1.191984447453197e-08,
+      "metric": 1.191984444481875e-08,
+      "full": 1.0,
+      "eft_matched": 0.9999999880801556,
+      "normalization": 1.0
+    },
+    {
+      "channel": "tensor_kinetic",
+      "classification": "REPRESENTED_POST_MATCH_RESIDUAL",
+      "raw_shift": 4.6429471916818996e-05,
+      "metric": 4.6429471916797915e-05,
+      "full": 1.0,
+      "eft_matched": 0.9999535705280832,
+      "normalization": 1.0
+    },
+    {
+      "channel": "cs2",
+      "classification": "REPRESENTED_POST_MATCH_RESIDUAL",
+      "raw_shift": 3.154728256629811e-09,
+      "metric": 3.1547282564048373e-09,
+      "full": 1.0,
+      "eft_matched": 0.9999999968452717,
+      "normalization": 1.0
+    },
+    {
+      "channel": "cT2",
+      "classification": "REPRESENTED_POST_MATCH_RESIDUAL",
+      "raw_shift": 0.0,
+      "metric": 0.0,
+      "full": 1.0,
+      "eft_matched": 1.0,
+      "normalization": 1.0
+    },
+    {
+      "channel": "gravity",
+      "classification": "REPRESENTED_POST_MATCH_RESIDUAL",
+      "raw_shift": 1.0334791482375509e-07,
+      "metric": 1.033479147816152e-07,
+      "full": 1.0,
+      "eft_matched": 0.9999998966520852,
+      "normalization": 1.0
+    },
+    {
+      "channel": "V",
+      "classification": "REPRESENTED_POST_MATCH_RESIDUAL",
+      "raw_shift": 8.607457206129652e-05,
+      "metric": 8.607457206133429e-05,
+      "full": 1.0,
+      "eft_matched": 0.9999139254279387,
+      "normalization": 1.0
+    },
+    {
+      "channel": "F",
+      "classification": "WILSON_COEFFICIENT_SHIFT",
+      "raw_shift": 4.788298117631187e-06,
+      "metric": 4.788298117631187e-06,
+      "full": 1.0000047882981176,
+      "eft_matched": 1.0000047882981176,
+      "normalization": 1.0
+    },
+    {
+      "channel": "H",
+      "classification": "WILSON_COEFFICIENT_SHIFT",
+      "raw_shift": 8.243476611802409e-06,
+      "metric": 8.243476611802409e-06,
+      "full": 1.0000082434766118,
+      "eft_matched": 1.0000082434766118,
+      "normalization": 1.0
+    },
+    {
+      "channel": "W",
+      "classification": "WILSON_COEFFICIENT_SHIFT",
+      "raw_shift": 0.0005886830810817306,
+      "metric": 0.0005886830810817306,
+      "full": 1.0005886830810817,
+      "eft_matched": 1.0005886830810817,
+      "normalization": 1.0
+    },
+    {
+      "channel": "K",
+      "classification": "WILSON_COEFFICIENT_SHIFT",
+      "raw_shift": 1.6228870892102958e-05,
+      "metric": 1.6228870892102958e-05,
+      "full": 1.000016228870892,
+      "eft_matched": 1.000016228870892,
+      "normalization": 1.0
+    },
+    {
+      "channel": "truncation_remainder",
+      "classification": "UNREPRESENTED_TRUNCATION_REMAINDER",
+      "raw_shift": 1.3423290421032625e-07,
+      "metric": 1.3423290421032625e-07,
+      "full": 1.3423290421032625e-07,
+      "eft_matched": 0.0,
+      "normalization": 1.0
+    }
+  ]
+}
