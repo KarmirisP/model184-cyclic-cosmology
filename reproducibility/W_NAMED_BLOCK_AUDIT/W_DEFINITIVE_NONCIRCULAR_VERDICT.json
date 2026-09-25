@@ -1,0 +1,63 @@
+{
+  "audit": "MODEL184_DEFINITIVE_NAMED_W_BLOCK_AUDIT",
+  "verdict": "W_MATCHING_DEFINITIVE_NONCIRCULAR_PASS",
+  "PASS": true,
+  "classification": "RETAINED_WILSON_COEFFICIENT_SHIFT",
+  "source_grid": {
+    "NY": 8,
+    "NQ": 16
+  },
+  "dimensions": {
+    "UV": 695,
+    "EFT": 567
+  },
+  "semantic_W_slice": [
+    295,
+    423
+  ],
+  "semantic_W_count": 128,
+  "W_shapes": {
+    "UV": [
+      8,
+      16
+    ],
+    "EFT": [
+      8,
+      16
+    ],
+    "delta": [
+      8,
+      16
+    ]
+  },
+  "coefficient_identity": {
+    "max_abs": 1.511953810848926e-19,
+    "L2": 1.6546839030259104e-18,
+    "tolerance": 1e-12,
+    "PASS": true
+  },
+  "coefficient_shift": {
+    "delta_W_maxabs": 3.092335723597765e-06,
+    "W_uv_maxabs": 0.0052501153375752,
+    "W_eft_maxabs": 0.005253207673298798,
+    "relative_global": 0.0005890033884524107,
+    "relative_pointwise_max": 0.0005906232865342388,
+    "historical_reported_R_W": 0.0005886830810817306
+  },
+  "raw_p8_remainder": {
+    "inverse_propagator": 1.342129961575619e-07,
+    "tree_exchange": 9.953902960593516e-15,
+    "strict_threshold": 0.0001,
+    "PASS": true
+  },
+  "packer_proven": true,
+  "no_circular_dependencies": true,
+  "circular_dependencies": [],
+  "authority_hashes": {
+    "run_step2_vector_integration.py": "34f57a0dd6a7bc27077d5bc0f5ee6655154105937a48062fe67f8a34ed54dc39",
+    "CANDIDATE_MATCHING_STATES.npz": "58308eb389831f31ae0f006dc5d7ec04af93b17cd04e3c07d0270969a96c78af",
+    "VECTOR_INTEGRATION_MATCHING.npz": "1a657a5a849eb1ba07e2f229632212f014986bb9359f335e366f7cceff45050b",
+    "FULL_VECTOR_THRESHOLD_VS_P.npz": "e5abf36d82bcba9123e14dbb09a6c5bd2f7df2841e8bf4ebadb565ddb0f4716b",
+    "CANONICAL_PHYSICAL_MATCHING_METRIC.json": "3e7262800ec90d4c8aa4c1e8125276fbd41c740619d7e35a0c133885272b7b2e"
+  }
+}
